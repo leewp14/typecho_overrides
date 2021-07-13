@@ -1,0 +1,84 @@
+
+/*
+   Reshape, recolor in-post TOC sidebar
+*/
+a#toggle-menu-tree {
+	border-radius: 0rem;
+}
+a#toggle-menu-tree:hover{
+	border-radius: 0rem;
+}
+#wrap.display-menu-tree a#toggle-menu-tree {
+	height: 6.25rem;
+	line-height: 6.25rem;
+}
+a#toggle-menu-tree.revert {
+	color: #333 !important;
+	background-color: rgba(255,255,255,0.9);
+	border: 0.0625rem solid #f0f0f0;
+}
+
+/*
+   Reshape, recolor scroll-to-top button
+*/
+#backtop {
+	border-radius: .3125rem;
+}
+#backtop:hover {
+	color: #aaa;
+}
+
+/*
+   Resize in-post audio player
+*/
+.post-content audio {
+	width: 100%;
+}
+
+/*
+   Reshape in-post bottom navigation
+*/
+.post-near {
+	border-radius: 0.3125rem;
+}
+
+/*
+   Recolor in-post comment submit button
+*/
+#comment-form input#submit {
+	border: .0625rem solid #555;
+	background: rgba(255,255,255,0.04);
+	color: #333;
+}
+body.theme-white #comment-form input#submit {
+	border-color: #ccc;
+	background: #fafafa;
+}
+body.theme-white.theme-sunset #comment-form input#submit {
+	border-color: #d6d0c2;
+	background: #e7e0d3;
+}
+body.theme-dark #comment-form input#submit {
+	border: .0625rem solid #555;
+	background: rgba(255,255,255,0.04);
+	color: #fff;
+}
+
+/*
+   Animate about page avatar
+*/
+#about-avatar img {
+	transition: 0.3s ease all;
+}
+#about-avatar img:hover {
+	border-radius: 1rem;
+	width: 200px;
+	height: 200px;
+}
+
+/*
+   Reshape mobile sidebar button
+*/
+a#toggle-nav {
+	border-radius: 0rem;
+}
