@@ -38,8 +38,11 @@ a#toggle-menu-tree.revert {
 #backtop:hover {
 	right: .7rem;
 	width: 5.75rem;
-	color: #fff;
 	padding-left: 1.1em;
+	color: #000;
+}
+body.theme-dark #backtop:hover {
+	color: #fff;
 }
 #backtop i {
 	-webkit-transition: 0.1s ease all;
