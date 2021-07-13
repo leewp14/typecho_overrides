@@ -1,12 +1,14 @@
 
 /*
-   Reshape, recolor in-post TOC sidebar
+   in-post TOC sidebar
 */
 a#toggle-menu-tree {
-	border-radius: 0rem;
+	border-radius: 0.3125rem;
 }
 a#toggle-menu-tree:hover{
-	border-radius: 0rem;
+	border-radius: 0.3125rem;
+	width: 7.25rem;
+	padding-left: 1.5rem;
 }
 #wrap.display-menu-tree a#toggle-menu-tree {
 	height: 6.25rem;
@@ -19,55 +21,103 @@ a#toggle-menu-tree.revert {
 }
 
 /*
-   Reshape, recolor scroll-to-top button
+   scroll-to-top button
 */
 #backtop {
 	border-radius: .3125rem;
+	right: -1rem;
+	height: 4.75rem;
+	line-height: 2.25rem;
+	padding-left: 0.5rem;
+	-webkit-transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-ms-transition: 0.3s ease all;
+	-o-transition: 0.3s ease all;
+	transition: 0.3s ease all;
 }
 #backtop:hover {
-	color: #aaa;
+	right: .7rem;
+	width: 5.75rem;
+	color: #fff;
+	padding-left: 1.1em;
+}
+#backtop i {
+	-webkit-transition: 0.1s ease all;
+	-moz-transition: 0.1s ease all;
+	-ms-transition: 0.1s ease all;
+	-o-transition: 0.1s ease all;
+	transition: 0.1s ease all;
 }
 
 /*
-   Resize in-post audio player
+   in-post audio player
 */
 .post-content audio {
 	width: 100%;
 }
 
 /*
-   Reshape in-post bottom navigation
+   in-post bottom navigation
 */
 .post-near {
 	border-radius: 0.3125rem;
 }
+body.theme-sunset .post-near, body.theme-dark .post-near {
+	border: unset;
+}
 
 /*
-   Recolor in-post comment submit button
+   in-post comment section
 */
+body.theme-sunset #comment-form textarea, body.theme-dark #comment-form textarea {
+	background: #e7e0d3 !important;
+	border: unset;
+}
+body.theme-dark #comment-form textarea {
+	background: rgba(255,255,255,0.04) !important;
+}
 #comment-form input#submit {
-	border: .0625rem solid #555;
+	border: unset;
 	background: rgba(255,255,255,0.04);
 	color: #333;
 }
 body.theme-white #comment-form input#submit {
+	border: 0.0625rem solid #555;
 	border-color: #ccc;
 	background: #fafafa;
 }
-body.theme-white.theme-sunset #comment-form input#submit {
-	border-color: #d6d0c2;
+body.theme-sunset #comment-form input#submit, body.theme-sunset .OwO-logo {
+	border: unset !important;
 	background: #e7e0d3;
 }
 body.theme-dark #comment-form input#submit {
-	border: .0625rem solid #555;
-	background: rgba(255,255,255,0.04);
 	color: #fff;
+}
+body.theme-dark .OwO-logo {
+	border: unset;
+	background: rgba(255,255,255,0.04);
+}
+body.theme-dark .OwO-body {
+	border: unset !important;
+	background: #222020 !important;
+	box-shadow: 0 0 .5rem rgba(0,0,0,.25);
+}
+body.theme-dark .OwO-bar {
+	background: rgba(255,255,255,0.12) !important;
+	border-top: unset !important;
+}
+body.theme-dark .OwO-bar .OwO-packages .OwO-package-active {
+	background: #222020 !important;
 }
 
 /*
-   Animate about page avatar
+   about page avatar
 */
 #about-avatar img {
+	-webkit-transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-ms-transition: 0.3s ease all;
+	-o-transition: 0.3s ease all;
 	transition: 0.3s ease all;
 }
 #about-avatar img:hover {
@@ -77,7 +127,7 @@ body.theme-dark #comment-form input#submit {
 }
 
 /*
-   Reshape mobile sidebar button
+   mobile sidebar button
 */
 a#toggle-nav {
 	border-radius: 0rem;
