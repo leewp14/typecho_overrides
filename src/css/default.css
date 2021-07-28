@@ -58,6 +58,9 @@ body.theme-dark #backtop:hover {
 .post-content img + br {
 	display: initial;
 }
+.post-content p {
+	text-align: initial !important;
+}
 
 /*
    in-post audio player
