@@ -61,6 +61,9 @@ body.theme-dark #backtop:hover {
 .post-content p {
 	text-align: initial !important;
 }
+.post-content .link-box p {
+	text-align: center !important;
+}
 
 /*
    in-post audio player
