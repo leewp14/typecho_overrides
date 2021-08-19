@@ -1,5 +1,76 @@
 
 /*
+   navbar
+*/
+.navbar-color {
+	background: none !important;
+	-webkit-backdrop-filter: none !important;
+	backdrop-filter: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.navbar > .container-fluid {
+	padding: 0.5rem 1.25rem;
+	background-color: rgba(255, 255, 255, 0.7);
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+	border-radius: .5rem;
+	-webkit-box-shadow: 0 0.125rem 1.13125rem -0.3125rem rgba(0, 0, 0, 0.71);
+	-moz-box-shadow: 0 0.125rem 1.13125rem -0.3125rem rgba(0, 0, 0, 0.71);
+	box-shadow: 0 0.125rem 1.13125rem -0.3125rem rgba(0, 0, 0, 0.71);
+	-webkit-transition: 0.5s ease all;
+	-moz-transition: 0.5s ease all;
+	-ms-transition: 0.5s ease all;
+	-o-transition: 0.5s ease all;
+	transition: 0.5s ease all;
+	opacity: 0.6;
+	filter: blur(1px);
+}
+body.theme-sunset .navbar > .container-fluid {
+	background-color: rgba(248,241,228,0.7);
+}
+body.theme-dark .navbar > .container-fluid {
+	background-color: rgba(52, 50, 50, 0.7);
+}
+.show-back-to-top .navbar > .container-fluid {
+	opacity: 1 !important;
+	filter: none !important;
+}
+.navbar > .container-fluid:hover, 
+.navbar > .container-fluid:focus-within {
+	opacity: 1.0 !important;
+	filter: none !important;
+}
+.navbar-nav.side-toolbar-list li a {
+	border-radius: 0.75rem;
+}
+.navbar-search-container {
+	border-radius: 0.75rem;
+}
+
+/*
+   header
+*/
+body.use-navbar #masthead .inner {
+	vertical-align: bottom;
+	padding-top: 0;
+}
+.inner .container {
+	text-align: left;
+	margin: 0;
+	padding: 4rem;
+	padding-bottom: 6rem;
+	text-shadow: 0 0 2rem rgba(0,0,0,0.3);
+}
+@media screen and (max-width: 759px) {
+	.inner .container {
+		padding: 2rem;
+		padding-bottom: 4rem;
+	}
+}
+
+/*
    in-post TOC sidebar
 */
 a#toggle-menu-tree {
@@ -129,17 +200,23 @@ body.theme-dark .OwO-bar .OwO-packages .OwO-package-active {
 /*
    about page avatar
 */
+#about-avatar {
+	text-align: inherit;
+}
 #about-avatar img {
 	-webkit-transition: 0.3s ease all;
 	-moz-transition: 0.3s ease all;
 	-ms-transition: 0.3s ease all;
 	-o-transition: 0.3s ease all;
 	transition: 0.3s ease all;
+	border-radius: 1rem;
 }
 #about-avatar img:hover {
-	border-radius: 1rem;
-	width: 200px;
-	height: 200px;
+	/* border-radius: 1rem;*/
+	/* width: 200px; */
+	/* height: 200px; */
+	transform: scale(1.1);
+	box-shadow: 0 0 1rem 0.125rem rgba(0,0,0,0.5);
 }
 
 /*
