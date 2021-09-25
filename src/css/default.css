@@ -52,6 +52,17 @@ body.theme-dark .navbar > .container-fluid {
 /*
    header
 */
+.blog-background::before {
+	content: "Illust. by はむねずこ";
+	right: 0;
+	position: absolute;
+	bottom: 0;
+	color: gray;
+	background: black;
+	padding: .125rem;
+	font-size: .7rem;
+	font-weight: lighter;
+}
 body.use-navbar #masthead .inner {
 	vertical-align: bottom;
 	padding-top: 0;
