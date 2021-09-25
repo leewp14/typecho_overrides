@@ -116,6 +116,10 @@ a#toggle-menu-tree.revert {
 	-ms-transition: 0.3s ease all;
 	-o-transition: 0.3s ease all;
 	transition: 0.3s ease all;
+	pointer-events: none;
+}
+#backtop.show, body.show-back-to-top #backtop {
+	pointer-events: initial;
 }
 #backtop:hover {
 	right: .7rem;
