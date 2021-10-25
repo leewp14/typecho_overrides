@@ -164,6 +164,9 @@ body.theme-dark #backtop:hover {
 .post-content audio {
 	width: 100%;
 }
+.post-content img {
+	max-height: 70vh;
+}
 
 /*
    in-post bottom navigation
