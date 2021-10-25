@@ -161,10 +161,6 @@ body.theme-dark #backtop:hover {
 .post-content .link-box p {
 	text-align: center !important;
 }
-
-/*
-   in-post audio player
-*/
 .post-content audio {
 	width: 100%;
 }
