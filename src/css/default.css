@@ -150,6 +150,13 @@ body.theme-dark #backtop:hover {
 }
 
 /*
+   zoom overlay
+*/
+body.theme-dark .zoom-overlay {
+	background-color: #000000d6 !important;
+}
+
+/*
    in-post formatting
 */
 .post-content img + br {
