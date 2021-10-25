@@ -1,3 +1,12 @@
+/*
+   local variables
+*/
+:root{
+	--local-body-background-image-path: url(/blog/usr/uploads/2021/10/3741127964.webp);
+	--local-body-background-image-shade: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1));
+	--local-theme-color: #ae8422;
+}
+
 
 /*
    navbar
@@ -68,6 +77,19 @@ body.use-navbar #masthead .inner {
 		padding: 2rem;
 		padding-bottom: 4rem;
 	}
+}
+
+/*
+   body
+*/
+body.theme-dark #body {
+	background: var(--local-body-background-image-shade), var(--local-body-background-image-path);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+#body-bottom {
+	background: none;
 }
 
 /*
