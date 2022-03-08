@@ -257,3 +257,10 @@ body.theme-dark .OwO-bar .OwO-packages .OwO-package-active {
 a#toggle-nav {
 	border-radius: 0rem;
 }
+
+/*
+   footer
+*/
+#footer {
+	background-color: unset !important;
+}
