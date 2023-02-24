@@ -165,8 +165,15 @@ body.theme-dark .zoom-overlay {
 .post-content p {
 	text-align: initial !important;
 }
+.post-content .link-box {
+	padding: 0rem 2rem;
+}
 .post-content .link-box p {
 	text-align: center !important;
+}
+.post-content .link-box > a {
+	margin: .75rem .75rem;
+	height: fit-content;
 }
 .post-content audio {
 	width: 100%;
